@@ -1,0 +1,58 @@
+[
+  {
+    "company": "Fictional Northstar Foods Ltd",
+    "country": "Exampleland",
+    "buyer_types": ["Importer", "Distributor"],
+    "products": ["beef", "lamb"],
+    "public_business_email": "purchasing@northstar.example.invalid",
+    "email_status": "verified",
+    "sources": [
+      {
+        "type": "trade_data",
+        "url": "https://trade.example.invalid/records/northstar-001",
+        "checked_on": "2026-10-20",
+        "note": "Fictional sample: beef import entry"
+      },
+      {
+        "type": "business_registry",
+        "url": "https://registry.example.invalid/entities/northstar-001",
+        "checked_on": "2026-10-20",
+        "status": "active",
+        "note": "Fictional sample registry record"
+      }
+    ]
+  },
+  {
+    "company": "Fictional Cedar Market Group",
+    "country": "Sample Republic",
+    "buyer_types": ["Wholesaler"],
+    "products": ["poultry"],
+    "public_business_email": "buying@cedarmarket.example.invalid",
+    "email_status": "unverified",
+    "sources": [
+      {
+        "type": "business_registry",
+        "url": "https://registry.example.invalid/entities/cedar-002",
+        "checked_on": "2026-10-18",
+        "status": "active",
+        "note": "Fictional sample registry record"
+      }
+    ]
+  },
+  {
+    "company": "Fictional Meadowline Provisions",
+    "country": "Exampleland",
+    "buyer_types": ["Processor"],
+    "products": ["beef"],
+    "public_business_email": null,
+    "email_status": "unverified",
+    "sources": [
+      {
+        "type": "customs_record",
+        "url": "https://customs.example.invalid/records/meadowline-003",
+        "checked_on": "2026-10-15",
+        "note": "Fictional sample: beef shipment entry"
+      }
+    ]
+  }
+]
